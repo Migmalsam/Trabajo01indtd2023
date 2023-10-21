@@ -15,17 +15,16 @@ tabla
 ```
 
 ## Problema 2
-Un grupo de 5 amigos quiere decidir a que hotel viajar de vacaciones, su intención es viajar 3 dias y 2 noches, para el viaje han ido a una agencia de viaje donde les han dado varias opciones:
+Un grupo de 5 amigos quiere decidir a que hotel viajar de vacaciones para el viaje han ido a una agencia de viaje donde les han dado varias opciones:
 
-- La primera opción es un hotel que les costaría en total 1300€, pero sería con alojamiento y desayuno solamente.
+- La primera opción es la que les costaría 75€ la noche pero a partir de la tercera noche son 65€, pero sería con alojamiento y desayuno solamente.
 
-- La segunda opción es un hotel que le costaría 1000€ en total, en este caso en régimen de solo alojamiento.
+- La segunda opción es la que le costaría 55€ la noche para reservas de 3 noches o mas sino serían 60€, en este caso en régimen de solo alojamiento.
 
-- La última opción es un hotel por 1890€ en total en pensión completa (alojamiento + desayuno,comida y cena).
+- La última opción es la que les costaría 100€ la noche en pensión completa (alojamiento + desayuno, comida y cena) sin descuento por mas quedarse mas noches .
 
-Coste por desyuno fuera del hotel en total: 60€.
+Coste por desayuno fuera del hotel en total: 7€/dia.
 
-Coste por comida fuera del hotel en total: 100€.
+Coste por comida fuera del hotel en total: 15€/dia.
 
-
-Teniendo en cuenta que hacen el check: in a las 13:00pm en el hotel y el check out a las 12:00pm, ¿Que opción es mas barata para este grupo de amigos?
+Tienen dos opciones ir de viernes a  domingo (2 noches) o ir de miércoles a domingo (4 noches), pero no lo saben todavia porque depende de que le den dias libres en el trabajo a un par de ellos, pero tienen que hacer la reserva ya para que no les suba el precio. Por tanto, teniendo en cuenta que hacen el check: in a las 13:00pm en el hotel y el check out a las 12:00pm, ¿Que opción es mas recomendable para este grupo de amigos si pretenden minimizar los costes?
