@@ -7,7 +7,8 @@ output: html_document
 ## Problema 1
 El primer problema a resolver es la siguiente tabla de decisión:
 ```{r echo=FALSE}
-tabla=matrix(c(3,7,25,10,6,2,12,11,5),3,3)
+source("teoriadecision_funciones_incertidumbre.R")
+tabla=crea.tablaX(c(3,7,25,10,6,2,12,11,5),3,3)
 rownames(tabla)=c("d1","d2","d3")
 colnames(tabla)=c("e1","e2","e3")
 tabla
@@ -22,8 +23,9 @@ Un grupo de 5 amigos quiere decidir a que hotel viajar de vacaciones, su intenci
 
 - La última opción es un hotel por 1890€ en total en pensión completa (alojamiento + desayuno,comida y cena).
 
-Coste por desyuno fuera del hotel en total: 60€
-Coste por comida fuera del hotel en total: 100€
+Coste por desyuno fuera del hotel en total: 60€.
+
+Coste por comida fuera del hotel en total: 100€.
 
 
 Teniendo en cuenta que hacen el check: in a las 13:00pm en el hotel y el check out a las 12:00pm, ¿Que opción es mas barata para este grupo de amigos?
