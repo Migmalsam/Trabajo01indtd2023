@@ -1,0 +1,29 @@
+---
+title: "Enunciados ejercicios"
+author: "Miguel Maldonado Sampayo"
+date: "2023-10-21"
+output: html_document
+---
+## Problema 1
+El primer problema a resolver es la siguiente tabla de decisión:
+```{r echo=FALSE}
+tabla=matrix(c(3,7,25,10,6,2,12,11,5),3,3)
+rownames(tabla)=c("d1","d2","d3")
+colnames(tabla)=c("e1","e2","e3")
+tabla
+```
+
+## Problema 2
+Un grupo de 5 amigos quiere decidir a que hotel viajar de vacaciones, su intención es viajar 3 dias y 2 noches, para el viaje han ido a una agencia de viaje donde les han dado varias opciones:
+
+- La primera opción es un hotel que les costaría en total 1300€, pero sería con alojamiento y desayuno solamente.
+
+- La segunda opción es un hotel que le costaría 1000€ en total, en este caso en régimen de solo alojamiento.
+
+- La última opción es un hotel por 1890€ en total en pensión completa (alojamiento + desayuno,comida y cena).
+
+Coste por desyuno fuera del hotel en total: 60€
+Coste por comida fuera del hotel en total: 100€
+
+
+Teniendo en cuenta que hacen el check: in a las 13:00pm en el hotel y el check out a las 12:00pm, ¿Que opción es mas barata para este grupo de amigos?
